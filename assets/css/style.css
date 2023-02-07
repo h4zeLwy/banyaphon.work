@@ -1,19 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -74,7 +59,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-poppins: 'Open Sans', sans-serif;
 
   /* font-size */
   --fs-1: 24px;
@@ -91,6 +76,7 @@
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
+  --fw-999: 888;
 
   /**
    * shadow
@@ -235,8 +221,8 @@ article.active {
 .h4 { font-size: var(--fs-4); }
 
 .h5 {
-  font-size: var(--fs-7);
-  font-weight: var(--fw-500);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-999);
 }
 
 .article-title {
@@ -849,7 +835,7 @@ main {
 }
 
 .skill .title-wrapper data {
-  color: var(--light-gray);
+  color: grey;
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
 }
@@ -884,7 +870,7 @@ main {
 
 .filter-select {
   background: var(--eerie-black-2);
-  color: var(--light-gray);
+  color: grey;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1013,7 +999,7 @@ main {
 .project-category { margin-left: 10px; }
 
 .project-title {
-  color: var(--white-2);
+  color: black;
   font-size: var(--fs-5);
   font-weight: var(--fw-400);
   text-transform: capitalize;
@@ -1021,7 +1007,7 @@ main {
 }
 
 .project-category {
-  color: var(--light-gray-70);
+  color: grey;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
@@ -1620,7 +1606,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .filter-item button {
-    color: var(--light-gray);
+    color: grey;
     font-size: var(--fs-5);
     transition: var(--transition-1);
   }
