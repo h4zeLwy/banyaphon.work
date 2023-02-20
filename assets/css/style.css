@@ -58,7 +58,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-poppins: 'Inter', sans-serif;
 
   /* font-size */
   --fs-1: 24px;
@@ -410,6 +410,13 @@ main {
   color: var(--white-2);
   font-size: var(--fs-7);
 }
+
+.contact-a :is(.contact-mail, time, address) {
+  color: var(--white-2);
+  font-size: var(--fs-8);
+}
+
+
 
 .contact-info address { font-style: normal; }
 
